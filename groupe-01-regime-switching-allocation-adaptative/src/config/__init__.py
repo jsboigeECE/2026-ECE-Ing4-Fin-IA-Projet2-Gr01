@@ -1,23 +1,6 @@
-"""config package — configuration centralisée du projet."""
+"""config package - Centralisation des paramètres."""
 
-from config.settings import (
-    DataConfig,
-    EvaluationConfig,
-    HMMConfig,
-    MarkovSwitchingConfig,
-    ProjectConfig,
-    StrategyConfig,
-    VAEConfig,
-    DEFAULT_CONFIG,
-)
+from config.constants import REGIME_COLORS, REGIME_LABELS, TRADING_DAYS_PER_YEAR
+from config.settings import ProjectConfig, get_settings
 
-__all__ = [
-    "DataConfig",
-    "EvaluationConfig",
-    "HMMConfig",
-    "MarkovSwitchingConfig",
-    "ProjectConfig",
-    "StrategyConfig",
-    "VAEConfig",
-    "DEFAULT_CONFIG",
-]
+__all__ = ["get_settings", "ProjectConfig", "REGIME_LABELS", "REGIME_COLORS", "TRADING_DAYS_PER_YEAR"]
