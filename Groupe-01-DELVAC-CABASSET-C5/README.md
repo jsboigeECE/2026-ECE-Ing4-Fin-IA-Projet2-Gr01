@@ -146,9 +146,8 @@ yfinance>=0.2.38   # données boursières réelles
 
 | Nom Prénom | GitHub |
 |------------|--------|
-| Prénom NOM | @username |
-| Prénom NOM | @username |
-| Prénom NOM | @username |
+| Pierre-Hugo CABASSET | @Pierre-Hugo18 |
+| Malo Delvac | @malodelvac |
 
 ---
 
